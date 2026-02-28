@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juan David | Data Scientist Portfolio</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles-portafolio.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#inicio"><i class="fas fa-database"></i> Juan <span>.Data</span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a href="#inicio" class="nav-link">Inicio</a></li>
+                    <li class="nav-item"><a href="#acerca" class="nav-link">Acerca de mí</a></li>
+                    <li class="nav-item"><a href="#habilidades" class="nav-link">Habilidades</a></li>
+                    <li class="nav-item"><a href="#proyectos" class="nav-link">Proyectos</a></li>
+                    <li class="nav-item"><a href="#contacto" class="nav-link">Contacto</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="hero" id="inicio">
+        <div class="hero-content">
+            <div class="hero-image-container">
+                <svg class="hero-image" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                    <rect width="200" height="200" fill="#3498db"/>
+                    <circle cx="100" cy="70" r="35" fill="#ecf0f1"/>
+                    <ellipse cx="100" cy="140" rx="50" ry="45" fill="#ecf0f1"/>
+                </svg>
+            </div>
+            <h1>Juan David Celly</h1>
+            <p class="subtitle">Estudiante de Ingenieria Mecatronica</p>
+            <p class="description">Hago proyectos de ingenieria mecatronica, Me especializo en crear nuevos diseños en solid works y en robotica</p>
+            <div class="hero-btns">
+                <a href="#proyectos" class="btn btn-primary-custom">Ver Proyectos</a>
+                <a href="#contacto" class="btn btn-outline-light ms-2">Contáctame</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="habilidades" class="py-5 bg-light text-center">
+    <div class="container">
+        <h2 class="mb-5 fw-bold">Mis <span style="color:var(--accent-color)">Habilidades</span></h2>
+        <div class="row g-4">
+            <!-- Python -->
+            <div class="col-md-3 skill-box">
+                <i class="fab fa-python fa-4x mb-3" style="color: #3776ab;"></i>
+                <h4>Python</h4>
+                <p class="small text-muted">Certificación en proceso</p>
+            </div>
+            <!-- SolidWorks -->
+            <div class="col-md-3 skill-box">
+                <i class="fas fa-drafting-compass fa-4x mb-3" style="color: #2c3e50;"></i>
+                <h4>SolidWorks</h4>
+                <p class="small text-muted">Diseño y Simulación 3D</p>
+            </div>
+            <!-- Robótica -->
+            <div class="col-md-3 skill-box">
+                <i class="fas fa-robot fa-4x mb-3" style="color: #16a085;"></i>
+                <h4>Robótica Industrial</h4>
+                <p class="small text-muted">Control y Automatización</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
