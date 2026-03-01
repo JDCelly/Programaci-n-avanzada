@@ -1,7 +1,7 @@
 :root {
-    --primary-color: #2c3e50;
-    --secondary-color: #3498db;
-    --accent-color: #e74c3c;
+    --primary-color: #00ffff;
+    --secondary-color: #037079;
+    --accent-color: #0011ff;
     --light-bg: #ecf0f1;
     --text-dark: #2c3e50;
     --text-light: #7f8c8d;
@@ -117,3 +117,12 @@ SECCIÓN HABILIDADES
 .skill-box i { 
     transition: color 0.3s ease; 
 }
+
+.about-icon-box {
+    padding: 20px;
+    border-radius: 20px;
+    background: white;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+    display: inline-block;
+}
+
